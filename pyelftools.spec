@@ -4,7 +4,7 @@
 #
 Name     : pyelftools
 Version  : 0.26
-Release  : 4
+Release  : 5
 URL      : https://files.pythonhosted.org/packages/9e/0f/82583ae6638a23e416cb3f15e3e3c07af51725fe51a4eaf91ede265f4af9/pyelftools-0.26.tar.gz
 Source0  : https://files.pythonhosted.org/packages/9e/0f/82583ae6638a23e416cb3f15e3e3c07af51725fe51a4eaf91ede265f4af9/pyelftools-0.26.tar.gz
 Summary  : Library for analyzing ELF files and DWARF debugging information
@@ -59,6 +59,7 @@ python components for the pyelftools package.
 Summary: python3 components for the pyelftools package.
 Group: Default
 Requires: python3-core
+Provides: pypi(pyelftools)
 
 %description python3
 python3 components for the pyelftools package.
@@ -73,7 +74,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1575997625
+export SOURCE_DATE_EPOCH=1583206520
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
